@@ -88,5 +88,9 @@ SELECT * FROM movies;
 -- ## Extension
 --
 -- 1.  Research how to delete multiple entries from your table in a single command.
+
 -- Can use BETWEEN to delete items between certain values.
-DELETE FROM movies WHERE year BETWEEN 2008 AND 2012;
+-- DELETE FROM movies WHERE year BETWEEN 2008 AND 2012;
+
+-- Can use like to delete all titles with similar names
+-- DELETE FROM movies WHERE title LIKE '%Thor%';
